@@ -278,3 +278,35 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos,windows,linux,visualstudiocode
+
+# notebook repository add gitignore
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore outputs, weights, and results
+runs/
+weights/
+*.pt
+*.onnx
+*.tflite
+*.torchscript
+*.engine
+
+# Ignore COCO dataset folders (assumed large)
+coco/
+*/coco/
+**/images/
+**/annotations/
+
+# Ignore temp or OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore environment files (optional)
+.env
+.venv/
+venv/
