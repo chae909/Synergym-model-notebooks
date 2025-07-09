@@ -129,3 +129,6 @@ celerybeat.pid
 
 # SageMath
 *.sage.py
+
+# Test Data
+*_test/
